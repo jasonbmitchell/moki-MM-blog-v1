@@ -1,0 +1,106 @@
+/*** ESSENTIAL STYLES ***/
+#main-menu .menu, #main-menu .menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+	position: 		relative;
+	z-index: 		999;
+}
+#main-menu .menu {
+	line-height:	1.0;
+}
+#main-menu .menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			225px; /* left offset of submenus need to match (see below) */
+}
+#main-menu .menu ul li {
+	width:			100%;
+}
+#main-menu .menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+#main-menu .menu li {
+	float:			left;
+	position:		relative;
+}
+#main-menu .menu a {
+	display:		block;
+	position:		relative;
+}
+#main-menu .menu li:hover ul,
+#main-menu .menu li.sfHover ul {
+	left:			0;
+	top:			0; /* match top ul list item height */
+	z-index:		999;
+}
+#main-menu .menu li:hover li ul,
+ul#main-menu .menu li.sfHover li ul {
+	top:			-999em;
+}
+#main-menu .menu li li:hover ul,
+#main-menu .menu li li.sfHover ul {
+	left:			225px; /* match ul width */
+	top:			0;
+	margin:			0;
+}
+#main-menu .menu li li:hover li ul,
+#main-menu .menu li li.sfHover li ul {
+	top:			-999em;
+}
+#main-menu .menu li li li:hover ul,
+#main-menu .menu li li li.sfHover ul {
+	left:			225px; /* match ul width */
+	top:			0;
+}
+
+/*** arrows **/
+#main-menu .menu a.with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			3px;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	/* background:	url('../../images/shared/arrows-ffffff.png') no-repeat -10px -100px; => 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sub-indicator {  /* give all except IE6 the correct values */
+	display: 		none;
+	top:			20px;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > .sub-indicator,
+a:hover > .sub-indicator,
+a:active > .sub-indicator,
+li:hover > a > .sub-indicator,
+li.sfHover > a > .sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+#main-menu .menu ul .sub-indicator { background-position:  -10px 0; }
+#main-menu .menu ul a > .sub-indicator { background-position:  0 0; }
+/* apply hovers to modern browsers */
+#main-menu .menu ul a:focus > .sub-indicator,
+#main-menu .menu ul a:hover > .sub-indicator,
+#main-menu .menu ul a:active > .sub-indicator,
+#main-menu .menu ul li:hover > a > .sub-indicator,
+#main-menu .menu ul li.sfHover > a > .sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+
+/*** shadows for all but IE6 ***/
+.shadow ul {
+	/* background:	url('../images/shadow.png') no-repeat bottom right; */
+	padding: 0 8px 9px 0;
+}
+.shadow ul.shadow-off {
+	background: transparent;
+}

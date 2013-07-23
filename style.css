@@ -1,0 +1,662 @@
+/*
+Theme Name:     Mokimobility Blog by Everythird
+Description:    Mokimobility child theme for Alyeska
+Author:         Everythird
+Author URI:     http://blog.mokimobility.com
+Template:       alyeska
+Version:        1.0.0
+*/
+
+@import url("../alyeska/style.css");
+
+
+
+@font-face {
+    font-family: 'proxima_nova_light';
+    src: url('fonts/proxima-nova-light-webfont.eot');
+    src: url('fonts/proxima-nova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proxima-nova-light-webfont.woff') format('woff'),
+         url('fonts/proxima-nova-light-webfont.ttf') format('truetype'),
+         url('fonts/proxima-nova-light-webfont.svg#proxima_nova_ltlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_regular';
+    src: url('fonts/proxima-nova-regular-webfont.eot');
+    src: url('fonts/proxima-nova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proxima-nova-regular-webfont.woff') format('woff'),
+         url('fonts/proxima-nova-regular-webfont.ttf') format('truetype'),
+         url('fonts/proxima-nova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#archives-2 a:hover {
+	
+	color: #33333 !important; 
+}
+
+#archives-2 {
+	
+	line-height: 15pt !important;
+}
+
+.read-more  {
+	
+	border: none !important;
+	background-image: url(arrow.jpg) !important;
+	background-position: right center !important;
+	background-repeat: no-repeat !important;
+	float: right !important;
+	color: #40addd !important;
+	transition: width .2s  !important;
+	-webkit-transition: width 0.2s linear !important;
+	-moz-transition: width 0.2s linear !important;
+	-o-transition: width 0.2s linear !important;
+	width: 100px;
+	
+	-webkit-transition: 0.2s linear  !important;
+	-moz-transition:  0.2s linear !important;
+	-o-transition:  0.2s linear !important;
+	margin-right: 10px;
+	font-size: 10pt !important;
+	
+
+	
+
+	
+}
+
+body{
+
+    font-family:"proxima-nova", 'proxima_nova_light';
+    font-weight:300 !important;
+    font-style:normal !important;
+   
+    font-size: 13px !important;
+}
+	
+
+.widget ul {
+	
+	border-top: none !important;
+}
+
+.read-more:hover {
+	
+	width: 109px;
+	margin-right: 3px;
+	color: #0092d2 !important;
+	
+
+}
+
+.read-more span {
+	
+	border: none !important;
+    margin-top: -5px; 
+}
+
+.read-more a:hover {
+	
+	color: #0092d2 !important;
+}
+
+#top {
+	
+	
+
+position: fixed;
+	z-index: 1000;
+	height: 120px;
+	display: block;
+	background-color: white;
+	width: 100%;
+	padding-top: 30px;
+	-webkit-box-shadow: 0 4px 18px rgba(0,0,0,0.39);
+	-moz-box-shadow: 0 4px 18px rgba(0,0,0,0.39);
+	box-shadow: 0 4px 18px rgba(0,0,0,0.39);
+
+}
+
+.blue-bar {
+	background-color: #0092d2 !important;
+	height: 200px;
+	width: 98%;
+	display: block;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	
+}
+
+.blue-bar-title {
+	
+	margin-top: 170px !important;
+	color: white;
+	float: left;
+	margin-left: 2%;
+}
+
+#moki-search {
+	
+	width: 165px; 
+	float: right;
+	margin-top: 35px;
+	margin-right: 60px;
+	
+}
+
+.theme-blvd_contact-bar {
+	
+	width: 200% !important;
+}
+
+.themeblvd-search fieldset {
+	width: 190px !important;
+	
+}
+
+.themeblvd-search fieldset {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #e6e6e6 !important;
+	padding: 5px 10px !important;
+	
+	
+	
+}
+
+@media(max-width:480px) {
+
+.dark {
+	margin-right: 35px !important;
+}
+
+.dark li a {
+	margin-left: 2px !important;
+	
+	opacity: 1 !important;
+}
+
+.themeblvd-search fieldset {
+	width: 140px !important;
+	float: right;
+	margin-right: -40px !important;
+}
+
+header-logo-image img {
+	width: 50px !important;
+}
+
+.blue-bar {
+	
+	height: 140px;
+	
+	
+}
+.blue-bar-title {
+	
+	margin-top: 115px !important;
+}
+	.themeblvd-search fieldset {
+	margin-top: -80px;}
+
+
+.themeblvd-contact-bar {
+   margin-top: 5px !important;
+	
+	/*
+margin-left: -25px !important;
+	float: right;
+*/	
+}
+	
+#top {
+		
+		padding-top: 0 !important;
+		margin-top: 0 !important;
+		height: 100px;
+		
+	}
+	
+#header_content .container {
+	
+	padding-top: 0px !important;
+	margin-top: 10px !important;
+}
+	
+
+	
+}
+
+.themeblvd-search input {
+	color: #333333 !important;
+	font-size: 14pt;
+	
+}
+
+.themeblvd-contact-bar {
+	
+	margin-top: -30px;
+	margin-right: -25px;
+}
+
+
+
+
+.menu-middle {
+	
+	background-image: none !important;
+	background-color: white !important;
+}
+
+.widget_archive {
+	margin-bottom: 15px !important;
+	float: left;
+	line-height: 15pt !important;
+	font-family:"proxima_nova_regular", "proxima_nova_light", sans-serif !important;
+}
+
+.widget_archive ul li a {
+	
+	width: 80% !important;
+	color: #33333 !important;
+	border-radius: 5px;
+	float: left;
+	
+	
+}
+
+.widget_archive ul li a:hover {
+	
+	width: 80% !important;
+	background-color: #eeeeee !important;
+	
+	color: #33333 !important;
+	float: left;
+	border-radius: 5px;
+	
+}
+
+
+.widget_archive ul li  {
+	
+	
+color: #33333 !important;
+	width: 100%;
+	display: block;
+	float: right;
+	border-radius: 5px;
+	 
+	 font-size: 10pt !important;
+
+	 border: none !important;
+	
+line-height: 15pt !important;
+	 padding: 0 0 0 10px !important;
+	 margin-bottom: 5px !important;
+	 color: #333333 !important;
+	 font-family:"proxima_nova_regular", "proxima_nova_light", sans-serif !important;
+	
+	
+	
+	
+}
+
+.widget_archive ul li:hover {
+	
+	color: #333333 !important;
+	background-color: #eeeeee !important;
+}
+
+/*
+.widget-archive  .fixed-sidebar {
+	color: #33333 !important;
+	
+}
+
+.widget_archive ul li:hover  {
+	
+	color: #33333 !important;
+	background-color: white;
+	border-radius: 5px;
+	
+	
+}
+
+*/
+.xoxo li {
+	border-radius: 5px;
+ color: #333333;
+ background-color: white;
+ margin-bottom: 5px;
+ padding-right: 10px !important;
+ padding-left: 10px !important;
+ font-weight: bold !important;
+ font-size: 10pt !important;
+ 
+	
+}
+
+.xoxo li:hover, .xoxo li a:hover {
+	
+	color: #333333;
+	background-color: #ffbc00 !important;
+	
+}
+
+.xoxo li a {
+	background-image: url(black-arrow.png) !important;
+font-family:"proxima_nova_regular", "proxima_nova_light", sans-serif !important;
+ background-position: 90% 50%;
+ background-repeat: no-repeat;
+ transition: background-position .2s  !important;
+	-webkit-transition: background-position 0.2s linear !important;
+	-moz-transition: background-position 0.2s linear !important;
+	-o-transition: background-position 0.2s linear !important;
+	
+}
+
+.xoxo li a:hover {
+	background-image: url(black-arrow.png) !important;
+
+ background-position: 95% 50%;
+ background-repeat: no-repeat;
+	
+}
+
+ .cat-item {
+	
+ border-radius: 5px;
+ color: white;
+ background-color: #cccccc;
+ margin-bottom: 5px;
+ width: intrinsic !important;
+ padding: 0 10px !important;
+ font-size: 10pt !important;
+ font-family:"proxima_nova_regular", "proxima_nova_light", sans-serif !important;
+ font-weight: bold !important;
+ 
+}
+
+ .cat-item:hover {
+	background-color: #0092d2 !important;
+	border-radius: 5px;
+	color: white !important;
+	padding-right: 10px !important;
+ padding-left: 10px !important;
+	
+	
+}
+
+.cat-item a:hover {
+	background-color: #0092d2 !important;
+	border-radius: 5px;
+	color: white !important;
+	
+	
+}
+
+.cat-item a {
+	
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+}
+
+
+
+
+.widget-title {
+	
+	border-bottom: solid #d3d3d3 1px;
+	border-top: solid #d3d3d3 1px;
+	padding-top: 8px;
+	padding-bottom:  12px;
+	color: #333333;
+	text-shadow: none !important;
+	font-size: 14pt !important;
+}
+
+
+span.category a {
+	border-radius: 5px;
+ color: white !important;
+ background-color: #cccccc;
+ margin-bottom: 5px;
+ width: intrinsic !important;
+ padding: 5px !important;
+ font-weight: bold !important;
+ margin: 15px 5px 5px 5px !important;
+ float: left;
+ 
+	
+}
+
+
+
+span.category a:hover {
+	
+	background-color: #0092d2 !important;
+}
+
+
+.author-info {
+	
+	float: right;
+}
+
+.entry-date  {
+	
+	font-style: normal !important;
+	font-weight: bold !important;
+}
+
+.post-para {
+	
+	color: #40addd !important;
+	font-size: 12pt;
+	font-family:"proxima_nova_light", sans-serif !important;
+}
+
+
+/* Vimeo Widget Thumbs */
+
+.fwvvw_vthumb {
+	
+	width: 100%;
+	margin-bottom: 15px !important;
+	background-color: #cccccc;
+	padding: 0 !important;
+	border: none !important;
+	position: relative;
+	z-index: 1
+	
+
+}
+
+
+
+.fwvvw_vthumb img {
+	
+margin-left: 20%;
+margin-bottom: 0 !important;
+
+}
+
+.fwvvw_vthumb:before {
+	
+	 position: absolute;
+   display: block;
+  content: url('play-overlay.png');
+   height: 110px;
+   width: 270px;
+   top: 25px;
+   left: 80px;
+   z-index: 100
+ 
+}
+
+
+.fwvvw-videotitle {
+	
+	background-color: #da7016 !important;
+	color: white;
+	width: 70% !important;
+	min-height: 32px;
+	background-image: url('arrow-orange.png');
+	background-position:right center;
+	background-repeat: no-repeat;
+	padding-right: 20% !important;
+	padding-left: 10% !important;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 11pt !important;
+	font-family:"proxima_nova_light", sans-serif !important;
+	padding-top: 5px !important;
+	margin-top: -6px !important;
+	
+}
+
+.attachment-post-thumbnail {
+	
+	float: left;
+	margin-right: 5%;
+	width: 29%;
+}
+
+
+.post-para {
+	
+	float: right;
+	width: 65%;
+}
+
+.category-buttons {
+	
+	font-size: 10pt !important;
+	color: white;
+	width: 60%;
+}
+
+.category-buttons a {
+	
+	border-radius: 5px;
+ color: white;
+ background-color: #cccccc;
+ margin-bottom: 5px;
+ 
+ padding: 5px !important;
+ font-size: 10pt !important;
+ font-family:"proxima_nova_light", sans-serif !important;
+ 
+}
+
+.category-buttons a:hover {
+	background-color: #0092d2 !important;
+	border-radius: 5px;
+	color: white !important;
+	
+	
+}
+
+.category-buttons2 {
+	
+	font-size: 10pt !important;
+	color: white;
+	width: 100%;
+	margin-bottom: 10px;
+	float: none;
+	display: block;
+	margin-top: -10px;
+}
+
+.category-buttons2 a {
+	
+	border-radius: 5px;
+ color: white;
+ background-color: #cccccc;
+ margin-bottom: 5px;
+ 
+ padding: 5px !important;
+ font-size: 10pt !important;
+ font-family:"proxima_nova_light", sans-serif !important;
+ 
+}
+
+.category-buttons2 a:hover {
+	background-color: #0092d2 !important;
+	border-radius: 5px;
+	color: white !important;
+	
+	
+}
+
+.entry-date, .author-info, .entry-title {
+	
+	color: #333333 !important;
+}
+
+.entry-title {
+	font-family:"proxima_nova_light", sans-serif !important;
+}
+
+.entry-title a:hover {
+	
+	color: black !important;
+}
+
+.widget-title {
+	
+	font-family:"proxima_nova_regular", "proxima_nova_light", sans-serif !important;
+}
+
+.attachment-single-post-thumbnail {
+	
+	width: 100%;
+}
+
+/*
+
+div.featured-image: {
+	
+	background-image: none !important;
+    padding-bottom: 0 !important;
+}
+*/
+
+.featured-image-inner {
+	
+	border: none !important;
+	box-shadow: none !important;
+	border-radius: none !important;
+}
+
+.dark li a {
+	background-color: #999999 !important;
+	border-radius: 3px;
+	margin-left: 10px ;
+	
+	float: right;
+	opacity: 1 !important;
+}
+
+.dark li {
+	
+}
+
+
+
+.dark li a:hover {
+	background-color: #0092d2 !important;
+	
+}

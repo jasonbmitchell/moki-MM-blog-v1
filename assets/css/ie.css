@@ -1,0 +1,42 @@
+/**
+ * Styles for IE8 and below 
+ */
+
+/* Framework */
+.last {
+	*margin-right: -20px;  /* IE7 */
+}
+#main #content,
+#main .fixed-sidebar {
+	*margin-right: -1px; /* IE7 */
+}
+/* Theme */
+#featured,
+#featured .featured-content,
+.article-wrap,
+.article-wrap article,
+.fixed-sidebar .widget {
+	*position: static; /* IE7 */
+}
+h1, h2, h3, h4, h5, h6 {
+	position: static;
+}
+span.header-shade {
+	display:none;
+}
+.article-wrap .comment-bubble {
+	display:none;
+}
+/* Allow drop down menus from main navigation to appear over sliders in IE7 */
+#container {
+	*position: relative; /* IE7 */
+	*z-index: 1; /* IE7 */
+}
+#container #top {
+	*position: relative; /* IE7 */
+	*z-index: 3; /* IE7 */
+}
+#container #featured {
+	*position: relative; /* IE7 */
+	*z-index: 2; /* IE7 */
+}

@@ -1,0 +1,146 @@
+body,
+#featured,
+#main,
+#featured_below,
+#bottom,
+#after-footer {
+	background: #eeeeee;
+}
+#top #header_content,
+#featured .featured-inner,
+#main .main-inner,
+#featured_below .featured_below-inner,
+#bottom #colophon,
+#after-footer .after-footer-middle {
+	max-width: 940px;
+	margin: 0 auto;
+}
+/* Top of Layout */
+#main-top {
+	background: #eeeeee url(../../images/layout/shape/main-top-stretch-light.png) repeat-x;
+	height: 50px;
+}
+/* Bottom of Layout */
+#bottom {
+	padding: 0 0 20px 0;
+}
+/* Menus */
+#main-menu .flip-black,
+#main-menu .flip-blue,
+#main-menu .flip-brown,
+#main-menu .flip-dark_purple,
+#main-menu .flip-dark,
+#main-menu .flip-green,
+#main-menu .flip-light_blue,
+#main-menu .flip-light,
+#main-menu .flip-navy,
+#main-menu .flip-orange,
+#main-menu .flip-pink,
+#main-menu .flip-purple,
+#main-menu .flip-red,
+#main-menu .flip-slate,
+#main-menu .flip-teal {
+	margin: -58px auto 0 auto;
+	max-width: 960px;
+}
+#main-menu .classic-black,
+#main-menu .classic-blue,
+#main-menu .classic-brown,
+#main-menu .classic-dark_purple,
+#main-menu .classic-dark,
+#main-menu .classic-green,
+#main-menu .classic-light_blue,
+#main-menu .classic-light,
+#main-menu .classic-navy,
+#main-menu .classic-orange,
+#main-menu .classic-pink,
+#main-menu .classic-purple,
+#main-menu .classic-red,
+#main-menu .classic-slate,
+#main-menu .classic-teal {
+	margin: -50px 0 0 0;
+}
+#main-menu .classic-black .menu-left,
+#main-menu .classic-blue .menu-left,
+#main-menu .classic-brown .menu-left,
+#main-menu .classic-dark_purple .menu-left,
+#main-menu .classic-dark .menu-left,
+#main-menu .classic-green .menu-left,
+#main-menu .classic-light_blue .menu-left,
+#main-menu .classic-light .menu-left,
+#main-menu .classic-navy .menu-left,
+#main-menu .classic-orange .menu-left,
+#main-menu .classic-pink .menu-left,
+#main-menu .classic-purple .menu-left,
+#main-menu .classic-red .menu-left,
+#main-menu .classic-slate .menu-left,
+#main-menu .classic-teal .menu-left,
+#main-menu .classic-black .menu-right,
+#main-menu .classic-blue .menu-right,
+#main-menu .classic-brown .menu-right,
+#main-menu .classic-dark_purple .menu-right,
+#main-menu .classic-dark .menu-right,
+#main-menu .classic-green .menu-right,
+#main-menu .classic-light_blue .menu-right,
+#main-menu .classic-light .menu-right,
+#main-menu .classic-navy .menu-right,
+#main-menu .classic-orange .menu-right,
+#main-menu .classic-pink .menu-right,
+#main-menu .classic-purple .menu-right,
+#main-menu .classic-red .menu-right,
+#main-menu .classic-slate .menu-right,
+#main-menu .classic-teal .menu-right {
+	display: none;
+}
+#main-menu .classic-black,
+#main-menu .classic-blue,
+#main-menu .classic-brown,
+#main-menu .classic-dark_purple,
+#main-menu .classic-dark,
+#main-menu .classic-green,
+#main-menu .classic-light_blue,
+#main-menu .classic-light,
+#main-menu .classic-navy,
+#main-menu .classic-orange,
+#main-menu .classic-pink,
+#main-menu .classic-purple,
+#main-menu .classic-red,
+#main-menu .classic-slate,
+#main-menu .classic-teal {
+	background-color: #eeeeee;
+}
+#main-menu .classic-black .menu-middle,
+#main-menu .classic-blue .menu-middle,
+#main-menu .classic-brown .menu-middle,
+#main-menu .classic-dark_purple .menu-middle,
+#main-menu .classic-dark .menu-middle,
+#main-menu .classic-green .menu-middle,
+#main-menu .classic-light_blue .menu-middle,
+#main-menu .classic-light .menu-middle,
+#main-menu .classic-navy .menu-middle,
+#main-menu .classic-orange .menu-middle,
+#main-menu .classic-pink .menu-middle,
+#main-menu .classic-purple .menu-middle,
+#main-menu .classic-red .menu-middle,
+#main-menu .classic-slate .menu-middle,
+#main-menu .classic-teal .menu-middle {
+	margin: 0;
+}
+#main-menu .classic-black .menu-middle-inner,
+#main-menu .classic-blue .menu-middle-inner,
+#main-menu .classic-brown .menu-middle-inner,
+#main-menu .classic-dark_purple .menu-middle-inner,
+#main-menu .classic-dark .menu-middle-inner,
+#main-menu .classic-green .menu-middle-inner,
+#main-menu .classic-light_blue .menu-middle-inner,
+#main-menu .classic-light .menu-middle-inner,
+#main-menu .classic-navy .menu-middle-inner,
+#main-menu .classic-orange .menu-middle-inner,
+#main-menu .classic-pink .menu-middle-inner,
+#main-menu .classic-purple .menu-middle-inner,
+#main-menu .classic-red .menu-middle-inner,
+#main-menu .classic-slate .menu-middle-inner,
+#main-menu .classic-teal .menu-middle-inner {
+	margin: 0 auto;
+	max-width: 940px;
+}
