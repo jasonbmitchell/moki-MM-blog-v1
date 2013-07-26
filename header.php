@@ -18,7 +18,33 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-<?php themeblvd_head(); ?>
+<?php 
+	themeblvd_head(); 
+	$childThemeURL = get_stylesheet_directory_uri();
+?>
+
+<!-- Typekit Integration -->
+	<script type="text/javascript" src="http://use.typekit.net/hqj2vgo.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" ></script>
+	<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="<?php echo $childThemeURL; ?>/js/jquery.maskedinput.min.js" ></script>
+	
+	<script type="text/javascript" src="<?php echo $childThemeURL; ?>/js/marketo.js"></script>
+	<script type="text/javascript" src="<?php echo $childThemeURL; ?>/js/app-MM-BLOG.js"></script>
+	
+	<link rel="shortcut icon" href="<?php echo $childThemeURL; ?>/images/favicon.png">
+	
+	<!-- Less CSS Integration -->
+	<link rel="stylesheet/less" type="text/css" href="<?php echo $childThemeURL; ?>/style-everythird.css" />
+	<script type="text/javascript" src="<?php echo $childThemeURL; ?>/js/less-1.3.3.min.js" ></script>
+	
+	<!-- Greensock Integration -->
+	<script  type="text/javascript" src="<?php echo $childThemeURL; ?>/js/greensock/TweenMax.min.js"></script>
+	<script  type="text/javascript" src="<?php echo $childThemeURL; ?>/js/greensock/TimelineMax.min.js"></script>
+	
+	<script type="text/javascript" src="<?php echo $childThemeURL; ?>/js/jquery.cookie.js"></script>
 
 	<!-- Marketo Code -->
 
@@ -49,7 +75,23 @@
 <body <?php body_class(); ?>>
 <?php themeblvd_before(); ?>
 <div id="wrapper">
+
+	<div id="alert-navigation">
+		<ul>
+			<li id='btn-header-open'></li>
+			<li id='btn-header-close'></li>
+		</ul>
+	</div>
+
 	<div id="container">
+
+		<div id="alert">
+			<ul>
+				<li>Get the complete guide to building tablet kiosks</li>
+				<li><img src="<?php echo $childThemeURL; ?>/images/MOKIMobility_NEWeb_prom-eBook.png" title="" class="inline"/></li>
+				<li><a href="http:mokimobility.com/ebook-two/" class="callToAction" target="_blank">download now</a></li>
+			</ul>
+		</div>
 		
 		<?php themeblvd_header_before(); ?>
 		
