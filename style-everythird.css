@@ -78,7 +78,7 @@ body {
 }
 .blue-bar {
   background-color: #0092d2 !important;
-  height: 200px;
+  height: 256px;
   width: 98%;
   display: block;
   -webkit-border-radius: 5px;
@@ -88,7 +88,7 @@ body {
   margin-right: 10px;
 }
 .blue-bar-title {
-  margin-top: 170px !important;
+  margin-top: 220px !important;
   color: white;
   float: left;
   margin-left: 2%;
